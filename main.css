@@ -86,12 +86,14 @@ body {
     margin: 40px;
     color: white;
     font-size: 44px;
+    text-shadow: #474747 3px 5px 2px;
   }
   h2 {
     text-align: center;
     margin: 10px;
     color: white;
     font-size: 32px;
+    text-shadow: #474747 3px 5px 2px;
   }
 
   #display2 {
@@ -143,15 +145,43 @@ body {
   color: white;
   font-size: 25px;
   text-align: center;
+  text-shadow: 2px 2px 2px #CE5937;
 }
 
 .submitArea {
   color: white;
   font-size: 20px;
+  text-shadow: 2px 2px 2px #CE5937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
   
 .timerArea {
   height: 270px;
   width: 200px;
   border: 1px solid white;
+}
+
+#replayButton {
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   color: #00E2FF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   background-color: #000000;
+   box-shadow: 1px 1px 10px 0px #000000;
+   -webkit-box-shadow: 1px 1px 10px 0px #000000;
+   -moz-box-shadow: 1px 1px 10px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #00E2FF 7px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align:center;
 }
