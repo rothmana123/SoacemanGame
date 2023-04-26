@@ -1,0 +1,157 @@
+body {
+    box-sizing: border-box;
+    background-image: url("https://thehill.com/wp-content/uploads/sites/2/2022/08/CA_space_08032022istock.jpg?w=1280");
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /*background-color: red;*/
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  .column1 {
+    flex-basis: 33.33%;
+    /*background-color: gray;*/
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+  }
+
+  .column2 {
+    flex-basis: 33.33%;
+    /*background-color: lightgray;*/
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.messageArea, .answerBoard, .submitArea {
+    margin: 10px auto;
+  }
+
+  .column3 {
+    flex-basis: 33.33%;
+    /*background-color: rgb(90, 94, 180);*/
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+  }
+
+
+  .answerBoard {
+    background-color: lightblue;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20%;
+  }
+
+  .box {
+    height: 40px;
+    width: 40px;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 0 5px;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  input[type="text"] {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 24px;
+    border-width: 2px;
+    border-color: aquamarine;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 40px;
+    color: white;
+    font-size: 44px;
+  }
+  h2 {
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-size: 32px;
+  }
+
+  #display2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #start {
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  #replayButton {
+    margin: 0 auto;
+  }
+
+  .letterBoard {
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+    height: 350px;
+    width: 200px;
+    /*background-color: rgb(207, 129, 200);*/
+    border: 1px solid black;
+    margin: 5px;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 10px;
+
+  }
+
+  .letter--selected{
+    background-color: rgb(110, 221, 110);
+  }
+
+  #wrongGuessLabel {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #CE5937;
+  }
+
+  .letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.messageArea {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.submitArea {
+  color: white;
+  font-size: 20px;
+}
+  
+.timerArea {
+  height: 270px;
+  width: 200px;
+  border: 1px solid white;
+}
