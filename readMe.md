@@ -43,7 +43,7 @@
    <li>If the player successfully guesses the word before running out of incorrect guesses, they win the game.</li>
 
    <li>If the player has 5 incorrect guesses, they lose the game. </li>
-  </ul>
+</ul>
   
 <h2>User Story</h2>
 
