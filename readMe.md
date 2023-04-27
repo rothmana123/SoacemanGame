@@ -130,9 +130,9 @@ As a player,
       - message label: Game Over
       - answerBoard -> reveal correct answer
       - rocket explosion animation
+</ul>
       
-      
-  <h2>7. Possible Extentions</h2>
+<h2>Possible Extentions</h2>
    
     - Add a timer
     - Add difficulty: Beginner, Medium, Expert
