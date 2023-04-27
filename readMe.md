@@ -2,7 +2,7 @@
 
 <h1>Spaceman Game!</h1>
 
-<h3>A modern update on H@n&man</h3>
+<h3>Spaceman is a fun and engaging word-guessing game that can be enjoyed by people of all ages (a modern update on H@n&man)</h3>
 
 <h2>Wireframes</h2>
 1. Beginning Game <br>
