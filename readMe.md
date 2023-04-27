@@ -33,7 +33,7 @@
   <li>Javascript</li>
  </ul>
 
-<h2>Getting Started<h2>
+<h2>Getting Started</h2>
   
 <ul>
    <li>The player starts by guessing letters that they think might be in the word. Each guess should be a single letter. </li>
