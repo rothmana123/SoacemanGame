@@ -34,6 +34,7 @@
  </ul>
 
 <h2>Getting Started<h2>
+  
 <ul>
    <li>The player starts by guessing letters that they think might be in the word. Each guess should be a single letter. </li>
 
@@ -42,6 +43,7 @@
    <li>If the player successfully guesses the word before running out of incorrect guesses, they win the game.</li>
 
    <li>If the player has 5 incorrect guesses, they lose the game. </li>
+  </ul>
   
 <h2>User Story</h2>
 
