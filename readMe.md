@@ -134,12 +134,8 @@ As a player,
       
   <li>7. Possible Extentions</li>
    
-    - Change background color of input if correct
-    - Change background image/style of screen
     - Add a timer
     - Add difficulty: Beginner, Medium, Expert
     - Add additional letters
     - Sound for correct, incorrect
-    - User Input
-    - Message if they have already used letter
-    - Message if their entry is not a letter
+
