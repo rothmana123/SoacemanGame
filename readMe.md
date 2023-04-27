@@ -34,14 +34,14 @@
  </ul>
 
 <h2>Getting Started<h2>
-  
-<p>The player starts by guessing letters that they think might be in the word. Each guess should be a single letter.
+<ul>
+   <li>The player starts by guessing letters that they think might be in the word. Each guess should be a single letter. </li>
 
-The player get 5 incorrect guesses.
+   <li>The player get 5 incorrect guesses.</li>
 
-If the player successfully guesses the word before running out of incorrect guesses, they win the game.
+   <li>If the player successfully guesses the word before running out of incorrect guesses, they win the game.</li>
 
-  If the player has 5 incorrect guesses, they lose the game. <p>
+   <li>If the player has 5 incorrect guesses, they lose the game. </li>
   
 <h2>User Story</h2>
 
