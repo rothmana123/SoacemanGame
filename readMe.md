@@ -132,7 +132,7 @@ As a player,
       - rocket explosion animation
       
       
-  <li>7. Possible Extentions</li>
+  <h2>7. Possible Extentions</h2>
    
     - Add a timer
     - Add difficulty: Beginner, Medium, Expert
